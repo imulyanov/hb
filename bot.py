@@ -13,7 +13,7 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 # ── Файл для зберігання контактів ─────────────────────────────────────────────
-DATA_FILE = "birthdays.json"
+DATA_FILE = "/app/data/birthdays.json"
 
 
 def load_data() -> dict:
